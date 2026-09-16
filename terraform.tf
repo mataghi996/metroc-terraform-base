@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "metroc-terraform-state-sep2026"
+    bucket = "terraform-state-sep2026"
     key    = "env/dev/terraform-base.tfstate"
     region = "ca-central-1"
   }
